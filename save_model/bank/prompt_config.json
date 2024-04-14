@@ -1,0 +1,66 @@
+{
+  "base_model_path": "t5-base",
+  "eval_num_dict": {
+    "mnli": 1000,
+    "qnli": 1000,
+    "qqp": 1000,
+    "record": 1000,
+    "squad": 1000,
+    "sst2": 1000
+  },
+  "num_list": [
+    [
+      66349,
+      103743,
+      391702,
+      362846,
+      137854,
+      86599
+    ],
+    [
+      1000,
+      1000,
+      1000,
+      1000,
+      1000,
+      1000
+    ],
+    [
+      872,
+      5463,
+      9815,
+      40430,
+      15176,
+      10570
+    ]
+  ],
+  "select_method": "max_pooling",
+  "soft_embedding_init_type": "frequent",
+  "task_list": [
+    "sst2",
+    "qnli",
+    "mnli",
+    "qqp",
+    "record",
+    "squad"
+  ],
+  "test_num_dict": {
+    "mnli": 9815,
+    "qnli": 5463,
+    "qqp": 40430,
+    "record": 15176,
+    "squad": 10570,
+    "sst2": 872
+  },
+  "total_bank_tokens": 600,
+  "total_virtual_tokens": 100,
+  "train_num_dict": {
+    "mnli": 391702,
+    "qnli": 103743,
+    "qqp": 362846,
+    "record": 137854,
+    "squad": 86599,
+    "sst2": 66349
+  },
+  "trainable_params": 460800
+}
