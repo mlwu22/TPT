@@ -1,0 +1,15 @@
+{
+  "bank_path": "../../save_model/bank",
+  "base_model_path": "t5-base",
+  "is_all": true,
+  "merge_type": "concat",
+  "num_bank_tokens": 100,
+  "num_soft_tokens": 100,
+  "prompt_path": "../../save_model/PromptTuning/mnli",
+  "random_prompt": false,
+  "select_method": "max_pooling",
+  "soft_embedding_init_type": "frequent",
+  "task_name": "rte",
+  "total_bank_tokens": 600,
+  "trainable_params": 537600
+}

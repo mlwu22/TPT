@@ -1,0 +1,7 @@
+{
+  "base_model_path": "t5-base",
+  "soft_embedding_init_type": "frequent",
+  "task_name": "mrpc",
+  "total_virtual_tokens": 100,
+  "trainable_params": 76800
+}
